@@ -51,7 +51,7 @@
 .events li{
 	float: left;
 	width: 30%;
-	margin-right: 2%;
+	margin-left: 10px;
 }
 .events li span.eventimage{
 	width:30%;
@@ -59,19 +59,46 @@
 	float: left;
 }
 .readon{
-	color: #c03;
+	
 	text-decoration: none;
-	font-weight: bold;
+	/*font-weight: bold*/;
 }
 
-.readon:hover{
-	color: #fff;
-	border: 1px solid;
-	background: #c03;
+.readon span:hover{
+	background: #444;
 	 
 }
 
+a.readon span{
+	background: #ff0000;
+	padding: 5px;
+	border: 1px solid #aaa;
+	float: left;
+	border-radius: 5px;
+	font-weight: normal!important;
+	text-transform: capitalize;
+	color: #fff;
+}
+
 .information p{
-	text-align: center;
+	/*text-align: center*/;
+}
+
+@media(min-width:320px) and (max-width:480px){
+
+.events li{
+	width: 100%;
+	margin:auto;
+}
+
+}
+
+@media(min-width: 540px) and (max-width: 640px){
+
+.events li{
+	width: 40%;
+	margin-bottom: 20px;
+}
+
 }
 
