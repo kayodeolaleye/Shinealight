@@ -2,12 +2,13 @@
 	width: 100%;
 	float: left;
 	margin-bottom: 7px;
-	background: #F0FFFF;
+	
 }
 .logo{
 	width: 100%;
 	float: left;
-	color: #FF0000 !important;
+	color: #898a8e; !important;
+	background: #fff;
 
 }
 
@@ -15,7 +16,7 @@
 	width: 100%;
 	float: left;
 	font-weight: bold!important;
-	
+	background: #f77f00;
 	
 }
 
@@ -81,6 +82,7 @@ a.readon span{
 
 .information p{
 	/*text-align: center*/;
+
 }
 
 @media(min-width:320px) and (max-width:480px){
