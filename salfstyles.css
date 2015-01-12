@@ -1,27 +1,25 @@
 .headwrapper{
 	width: 100%;
-	
 	float: left;
 	margin-bottom: 7px;
-	height: 150px;
-	background-color: #000;
+	background: #F0FFFF;
 }
 .logo{
-	width: 14%;
+	width: 100%;
 	float: left;
-	
+	color: #FF0000 !important;
 
 }
 
 .menu{
-	width: 75%;
+	width: 100%;
 	float: left;
-	margin-left: 3%;
-	margin-bottom: 0px;
+	font-weight: bold!important;
+	
 	
 }
 
-.wrapper{
+.wrapperboard{
 	width: 100%;
 	float: left;
 	margin-bottom: 17px;
@@ -41,11 +39,12 @@
 .nivoimage{
 	width: 100%;
 	/*margin: 0 20%;*/
-	height: auto;
+	height: 100px !important;
 }
 .events{
 	width: 100%;
 	list-style: none;
+	margin: 0 0!important;
 }
 
 .events li{

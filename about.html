@@ -9,7 +9,11 @@
     <link href="bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
     <link href="salfstyles.css" rel="stylesheet">
+    <script src="js/jquery-1.9.0.min.js"></script>
     <script src="css/script.js"></script>
+    <link rel="stylesheet" href="Nivo-Slider/themes/default/default.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="Nivo-Slider/nivo-slider.css" type="text/css" media="screen" />
+ 
   </head>
 
   <body>
@@ -19,18 +23,17 @@
     <div class="headwrapper">
 
       <div class="logo">
-        <img src="Nivo-Slider/demo/images/toystoryjpg" style="height:150px; width:100%; background-color:#fff;">
+      <h1 style="text-transform:capitalize;">Shine A Light Foundation</h1>
       </div>
 
     <div id='cssmenu' class="menu">
-    <h1 style="text-transform:capitalize; color:#fff;">Shine A Light Foundation</h1>
     <ul>
       <li class='active'><a href='index.html'><span>Home</span></a></li>
       <li class='has-sub'><a href='about.html'><span>About Us</span></a>
       <ul>
-         <li><a href='#bk1'><span>Who We Are</span></a></li>
-         <li><a href='#bk2'><span>What We Do</span></a></li>
-         <li class='last'><a href='#bk3'><span>How We Work</span></a></li>
+         <li><a href='about.html'><span>Who We Are</span></a></li>
+         <li><a href='about.html'><span>What We Do</span></a></li>
+         <li class='last'><a href='about.html'><span>How We Work</span></a></li>
       </ul>
       </li>
       <li class='has-sub'><a href='#'><span>Donate</span></a>
@@ -41,24 +44,34 @@
       </ul>
       </li>
       <li class='last'><a href='#'><span>Contact Us</span></a></li>
-
       </ul>
     </div>
 
     </div>
 
-    <div class="wrapper">
+    <div class="wrapperboard" id="wrapper">
+
+    <div class="slider-wrapper theme-default">
       <div id="slider" class="nivoSlider">
-                <img class="nivoimage" src="Nivo-Slider/demo/images/toystory.jpg" data-thumb="images/toystory.jpg" alt="" />
-                <!--<a href="http://dev7studios.com"><img src="images/up.jpg" data-thumb="images/up.jpg" alt="" title="This is an example of a caption" /></a>
-                <img class="nivoimage" src="images/walle.jpg" data-thumb="images/walle.jpg" alt="" data-transition="slideInLeft" />
-                <img class="nivoimage" src="images/nemo.jpg" data-thumb="images/nemo.jpg" alt="" title="#htmlcaption" />-->
-            </div>
+                <img class="nivoimage" src="Nivo-Slider/demo/images/nemo.jpg" alt="" title="ghccbm cvvb hvhhv" data-transition="pop"/>
+                <img src="Nivo-Slider/demo/images/up.jpg" alt="" title="ghccbm cvvb hvhhv" data-transition="pop" />
+                <img class="nivoimage" src="Nivo-Slider/demo/images/walle.jpg" alt="" title="ghccbm cvvb hvhhv" data-transition="pop"/>
+                <img class="nivoimage" src="Nivo-Slider/demo/images/toystory.jpg" alt="" title="ghccbm cvvb hvhhv" data-transition="pop"/>
+      </div>
     </div>
+
+    </div>
+    <script type="text/javascript" src="js/jquery-1.9.0.min.js"></script>
+    <script type="text/javascript" src="Nivo-Slider/jquery.nivo.slider.js"></script>
+    <script type="text/javascript">
+    $(window).load(function() {
+        $('#slider').nivoSlider();
+    });
+    </script>
     
   <div class="row information">
   <h2  style="text-align:center;" id="bk1">Who We Are</h2>
-    <div class="col-sm-12" style="background-color:lavender;">
+    <div class="col-sm-12" style="background-color:#F0FFFF;">
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
       ut labore et dolore magna aliqua.</p>
       <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
@@ -68,7 +81,7 @@
 
   <div class="row information">
   <h2  style="text-align:center;" id="bk2">What We Do</h2>
-    <div class="col-sm-6" style="background-color:lavender;">
+    <div class="col-sm-6" style="background-color:#F0FFFF;">
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
       ut labore et dolore magna aliqua.</p>
       <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
@@ -78,7 +91,7 @@
 
   <div class="row information">
   <h2  style="text-align:center;" id="bk3">How We Work</h2>
-    <div class="col-sm-12" style="background-color:lavender;">
+    <div class="col-sm-12" style="background-color:#F0FFFF;">
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
       ut labore et dolore magna aliqua.</p>
       <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
@@ -90,26 +103,26 @@
     <ul class="events">
 
     <li>
-    <div class="col-sm-4" style="background-color:lavender;">
+    <div class="col-sm-4" style="background-color:#F0FFFF;">
    
-    <span>
-    <img class="eventimage" src="Nivo-Slider/demo/images/toystory.jpg">Lorem ipsum dolor sit amet, consectetur adipisicing elitut labore et dolore magna aliqua...</span><a class="readon" href="#"><span>read more</span> </a>
+    <p>
+    <img class="eventimage" src="Nivo-Slider/demo/images/toystory.jpg">Lorem ipsum dolor sit amet, consectetur adipisicing elitut labore et dolore magna aliqua... </p><a class="readon" href="#"><span>read more</span> </a>
     </div>
     </li>
 
     <li>
-    <div class="col-sm-4" style="background-color:lavender;">
+    <div class="col-sm-4" style="background-color:#F0FFFF;">
     
-    <span>
-    <img class="eventimage" src="Nivo-Slider/demo/images/walle.jpg">Lorem ipsum dolor sit amet, consectetur adipisicing elitut labore et dolore magna aliqua...</span><a class="readon" href="#"><span>read more</span> </a>
+    <p>
+    <img class="eventimage" src="Nivo-Slider/demo/images/walle.jpg">Lorem ipsum dolor sit amet, consectetur adipisicing elitut labore et dolore magna aliqua... </p><a class="readon" href="#"><span>read more</span> </a>
     </div>
     </li>
 
     <li>
-    <div class="col-sm-4" style="background-color:lavender;">
+    <div class="col-sm-4" style="background-color:#F0FFFF;">
     
-    <span>
-    <img class="eventimage" src="Nivo-Slider/demo/images/up.jpg">Lorem ipsum dolor sit amet, consectetur adipisicing elitut labore et dolore magna aliqua...</span><a class="readon"href="#"><span>read more</span> </a>
+    <p>
+    <img class="eventimage" src="Nivo-Slider/demo/images/up.jpg">Lorem ipsum dolor sit amet, consectetur adipisicing elitut labore et dolore magna... </p><a class="readon"href="#"><span>read more</span> </a>
    
     </div>
     </li>
@@ -124,7 +137,6 @@
 
   </div>
 
-<script src="js/jquery-1.9.0.min.js"></script>
 <script src="bootstrap/js/bootstrap.min.js"></script>
 
 </body>
