@@ -39,6 +39,7 @@
 }
 #cssmenu > ul li.has-sub {
   position: relative;
+  z-index: 10;
 }
 #cssmenu > ul li.has-sub:hover ul {
   display: block;

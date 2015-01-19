@@ -7,7 +7,7 @@
 .logo{
 	width: 100%;
 	float: left;
-	color: #898a8e; !important;
+	color: #898a8e !important;
 	background: #fff;
 
 }
@@ -25,10 +25,8 @@
 	width: 70%;
 	float: left;
 	margin-bottom: 17px;
-	margin-right: auto;
-	margin-left: auto;
 	margin:0 15%;
-	position: relative;
+	/*position: relative;*/
 	
 }
 
@@ -46,7 +44,7 @@
 .nivoimage{
 	width: 100%;
 	/*margin: 0 20%;*/
-	/*height: 94px !important;*/
+	height: auto;
 }
 .events{
 	width: 100%;
@@ -60,7 +58,7 @@
 	margin-left: 10px;
 }
 .events li span.eventimage{
-	width:30%;
+	width:100%;
 	height: auto;
 	float: left;
 }
@@ -92,6 +90,20 @@ a.readon span{
 .information p, .information h2{
 	color: #ffffff;
 
+}
+
+.nivo-caption {
+background: #000 !important;
+width: 40% !important;
+padding: 20px;
+opacity: 0.6 !important;
+left: auto !important;
+right: 25px!important;
+top: 75px;
+max-height: 120px;
+font-size: 24px;
+line-height: 2;
+border-radius: 5px;
 }
 
 @media(min-width:320px) and (max-width:480px){
